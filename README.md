@@ -1,1 +1,1 @@
-This is the first repo for storing codes to my learning experiences and concluded projects with SGA
+Link to my first Project: https://dash.generalassemb.ly/oriakhideba/build-your-own-personal-website
