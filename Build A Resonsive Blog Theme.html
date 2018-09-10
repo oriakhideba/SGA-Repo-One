@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/assets/jeff.png">
+    <h1>Jeff's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best Poems</a></li>
+      <li><a href="#">Worst Poems</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>How to Trust More</h2>
+    <p>The best time to cultivate trust is when you follow through on a directive given you. Don't worry about your growth or progress. It is with such glee, I practise. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Nice Job. Great Looking website</h2>
+    <p>This is me simply trying to edit this page from the boring, all words dump to a better, sense-making one.</p>
+    <p>Don't forget to click the lick button below.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>This is the Third Post.</h2>
+    <p>And here, I will try to be civil as in the previous part. Meantime, the like was distributed to all the posts. I am yet to get a clear hang of it. I seriously hope it comes to me.
+    
+    </p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
